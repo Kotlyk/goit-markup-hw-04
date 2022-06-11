@@ -121,9 +121,14 @@ header .logo {
 .mail-icon{
     fill: currentColor;
     margin-right: 10px;
+    width: 16px;
+    height: 16px;
     
 }
-
+.contacts-item{
+    display: flex;
+    align-items: center;
+}
 
 
 
