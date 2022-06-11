@@ -110,13 +110,28 @@ header .logo {
 }
 .contacts{
     display: flex;
-    margin-left: auto;
+   
 }
 
 .contacts .link:hover,
 .contacts .link:focus{
     color: var(--accent-color);
+   
 }
+.mail-icon{
+    fill: currentColor;
+    margin-right: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
 
 /* .contacts  .contacts-item{
     margin-left: 50px;
@@ -354,6 +369,8 @@ display: flex;
     	.clients-list {
     	    display: flex;
     	    justify-content: center;
+            border:;
+           
     	}
     
     	.clients-item {
@@ -371,7 +388,8 @@ display: flex;
     	    display: flex;
     	    align-items: center;
     	    justify-content: center;
-    	    border-radius: 5px;
+    	    border: 1px solid #AFB1B8;
+            border-radius: 4px;
     	    width: 100%;
     	    height: 100%;
     	    color: #AFB1B8;
@@ -380,6 +398,7 @@ display: flex;
     	.clients-link:hover,
     	.clients-link:focus {
     	    color: var(--accent-color);
+            border: 1px solid var(--accent-color);
     	}
     
     
