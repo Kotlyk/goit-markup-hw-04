@@ -108,10 +108,7 @@ header .logo {
     text-decoration: none;
     letter-spacing: 0.02em;
 }
-.contacts{
-    display: flex;
-   
-}
+
 
 .contacts .link:hover,
 .contacts .link:focus{
@@ -121,8 +118,24 @@ header .logo {
 .mail-icon{
     fill: currentColor;
     margin-right: 10px;
-    width: 16px;
-    height: 16px;
+    
+}
+
+/* .contacts-item{
+    display: flex;
+    text-align: center;
+} */
+
+.contacts{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+   
+}
+
+.contacts-item .link{
+    display: flex;
+    align-items: center;
     
 }
 
@@ -131,19 +144,15 @@ header .logo {
 
 
 
-
-
-
-
-/* .contacts  .contacts-item{
+.contacts  .contacts-item{
     margin-left: 50px;
 }
 .contacts .contacts-item:first-child{
     margin-left: 0;
-} */
-.contacts .contacts-item+ .contacts-item{
-    margin-left: 50px;
 }
+/* .contacts .contacts-item+ .contacts-item{
+    margin-left: 50px;
+} */
 
 /* hero */
 .hero {
