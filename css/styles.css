@@ -126,7 +126,7 @@ header .logo {
     text-align: center;
 } */
 
-.contacts{
+.contacts {
     display: flex;
     align-items: center;
     margin-left: auto;
@@ -210,7 +210,7 @@ header .logo {
 
 .feature {
     display: flex;
-    margin-right: 30px;
+   
 }
 
 .feature-item {
