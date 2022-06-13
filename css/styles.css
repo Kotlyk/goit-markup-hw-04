@@ -353,7 +353,7 @@ display: flex;
     	    width: 100%;
     	    height: 100%;
     	    border-radius: 50%;
-    	    color: var(--primary-text-color);
+    	    color: #AFB1B8;
     	}
     
     	.team-cos-link:hover,
@@ -514,7 +514,7 @@ footer {
  }
 
  .cos-icon {
-     fill: #ffffff;
+     fill: rgba(255, 255, 255, 0.9);
  }
 
  .cos-link:hover,
